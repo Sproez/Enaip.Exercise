@@ -71,7 +71,7 @@ namespace Enaip.Exercise.NumbersConsole
 
                     
 
-                    risultato = CalculatorHelper.DoOperation(numero1, numero2, operationInput);
+                    risultato = helper.DoOperation(numero1, numero2, operationInput);
 
                     //output risultato
                     if (double.IsNaN(risultato))
